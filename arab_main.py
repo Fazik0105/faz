@@ -97,22 +97,22 @@ def bot_message(message):
         
         elif message.text == 'Arab tili fonetikasi 🗣📗':
             markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
-            item1 = types.KeyboardButton('1-dars📘')
-            item2 = types.KeyboardButton('2-dars📘')
-            item3 = types.KeyboardButton('3-dars📘')
-            item4 = types.KeyboardButton('4-dars📘')
-            item5 = types.KeyboardButton('5-dars📘')
-            item6 = types.KeyboardButton('6-dars📘')
-            item7 = types.KeyboardButton('7-dars📘')
-            item8 = types.KeyboardButton('8-dars📘')
-            item9 = types.KeyboardButton('9-dars📘')
-            item10 = types.KeyboardButton('10-dars📘')
-            item11 = types.KeyboardButton('11-dars📘')
-            item12 = types.KeyboardButton('12-dars📘')
-            item13 = types.KeyboardButton('13-dars📘')
-            item14 = types.KeyboardButton('14-dars📘')
-            item15 = types.KeyboardButton('15-dars📘')
-            item16 = types.KeyboardButton('16-dars📘')
+            item1 = types.KeyboardButton('1-dars🗣')
+            item2 = types.KeyboardButton('2-dars🗣')
+            item3 = types.KeyboardButton('3-dars🗣')
+            item4 = types.KeyboardButton('4-dars🗣')
+            item5 = types.KeyboardButton('5-dars🗣')
+            item6 = types.KeyboardButton('6-dars🗣')
+            item7 = types.KeyboardButton('7-dars🗣')
+            item8 = types.KeyboardButton('8-dars🗣')
+            item9 = types.KeyboardButton('9-dars🗣')
+            item10 = types.KeyboardButton('10-dars🗣')
+            item11 = types.KeyboardButton('11-dars🗣')
+            item12 = types.KeyboardButton('12-dars🗣')
+            item13 = types.KeyboardButton('13-dars🗣')
+            item14 = types.KeyboardButton('14-dars🗣')
+            item15 = types.KeyboardButton('15-dars🗣')
+            item16 = types.KeyboardButton('16-dars🗣')
             back = types.KeyboardButton('🔙')
             markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16, back)
             
@@ -324,7 +324,7 @@ def bot_message(message):
 
 # ###################################### fonetika ##################################################
 
-        elif message.text == '1-dars📘':
+        elif message.text == '1-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/2?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/4?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/5?single')
@@ -337,7 +337,7 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/12?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/13?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/14?single')
-        elif message.text == '2-dars📘':
+        elif message.text == '2-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/16?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/17?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/18?single')
@@ -345,7 +345,7 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/20?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/21?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/22?single')
-        elif message.text == '3-dars📘':
+        elif message.text == '3-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/25?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/26?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/27?single')
@@ -353,7 +353,7 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/29?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/30?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/31?single')
-        elif message.text == '4-dars📘':
+        elif message.text == '4-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/33?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/34?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/35?single')
@@ -361,26 +361,26 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/37?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/38?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/39?single')
-        elif message.text == '5-dars📘':  
+        elif message.text == '5-dars🗣':  
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/41?single')
-        elif message.text == '6-dars📘':  
+        elif message.text == '6-dars🗣':  
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/43?single')
-        elif message.text == '7-dars📘':  
+        elif message.text == '7-dars🗣':  
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/46?single')
-        elif message.text == '8-dars📘':  
+        elif message.text == '8-dars🗣':  
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/48?single')
-        elif message.text == '9-dars📘':  
+        elif message.text == '9-dars🗣':  
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/50?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/51?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/52?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/53?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/54?single')
-        elif message.text == '10-dars📘':
+        elif message.text == '10-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/56?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/57?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/58?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/59?single')
-        elif message.text == '11-dars📘':
+        elif message.text == '11-dars🗣':
             bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 61?single')
             bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 62?single')
             bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 63?single')
@@ -389,22 +389,22 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 66?single')
             bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 67?single')
             bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 68?single')
-        elif message.text == '12-dars📘':
+        elif message.text == '12-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/70?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/71?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/72?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/73?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/74?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/75?single')
-        elif message.text == '13-dars📘':
+        elif message.text == '13-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/77?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/78?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/79?single')
-        elif message.text == '14-dars📘':
+        elif message.text == '14-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/81?single')
-        elif message.text == '15-dars📘':
+        elif message.text == '15-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/83?single')
-        elif message.text == '16-dars📘':
+        elif message.text == '16-dar🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/85?single')
         else:
             pass
