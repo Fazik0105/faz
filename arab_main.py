@@ -405,7 +405,7 @@ def bot_message(message):
         elif message.text == '15-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/83?single')
         elif message.text == '16-dar🗣':
-            bot.send_video(message.chat.id,r'https://t.me/learnarabian/85?single')
+            bot.send_video(message.chat.id,r'https://t.me/asdasd1234sa/2?single')
         else:
             bot.send_message(message.chat.id,'Wrong message!')
     
