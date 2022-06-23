@@ -404,9 +404,8 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/81?single')
         elif message.text == '15-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/83?single')
+        elif message.text == '16-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/87?single')
-        elif message.text == '16-dar🗣':
-            bot.send_message(message.chat.id,'Texnik nosozliklarga kora 16 mavzudagi video 15 ga qoshib yuborildi! uzur :(')
         else:
             bot.send_message(message.chat.id,'Wrong message!')
     
