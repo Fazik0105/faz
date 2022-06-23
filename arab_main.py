@@ -301,7 +301,7 @@ def bot_message(message):
         elif message.text == '🎧 9-audio 🎧':
             bot.send_message(message.chat.id,'Audio mavjud emas')
         elif message.text == '🎧 10-audio 🎧':
-            bot.send_audio(message.chat.id,r'?single')
+            bot.send_message(message.chat.id,'Audio mavjud emas')
         elif message.text == '🎧 11-audio 🎧':
             bot.send_message(message.chat.id,'Audio mavjud emas')
         elif message.text == '🎧 12-audio 🎧':
