@@ -134,6 +134,7 @@ def bot_message(message):
         
         
         elif message.text == '1📘':
+            bot.send_message(message.chat.id,'Madina1')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/2?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/3?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/4?single')
@@ -212,7 +213,7 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/158?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/159?single')
         elif message.text == '13📘':
-            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/160?single')
+            bot.send_message(message.chat.id,'Madina2')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/161?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/162?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/163?single')
