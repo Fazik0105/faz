@@ -381,15 +381,14 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/58?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/59?single')
         elif message.text == '11-dars🗣':
-            bot.send_message(message.chat.id,'.')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 61?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 62?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 63?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 64?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 65?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 66?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 67?single')
-            bot.send_video(message.chat.id,r'https: // t.me / learnarabian / 68?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/61?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/62?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/63?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/64?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/65?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/66?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/67?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/68?single')
         elif message.text == '12-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/70?single')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/71?single')
@@ -406,7 +405,6 @@ def bot_message(message):
         elif message.text == '15-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/83?single')
         elif message.text == '16-dar🗣':
-            bot.send_message(message.chat.id,'.')
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/85?single')
         else:
             pass
