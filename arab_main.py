@@ -83,7 +83,7 @@ def bot_message(message):
             item18 = types.KeyboardButton('🎧 18-audio 🎧')
             item19 = types.KeyboardButton('🎧 19-audio 🎧')
             back = types.KeyboardButton('🔙.')
-            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19 back)
+            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19, back)
             
             bot.send_message(message.chat.id,'🎧',reply_markup=markup)
             
@@ -123,7 +123,7 @@ def bot_message(message):
             item18 = types.KeyboardButton('18-dars🗣')
             item19 = types.KeyboardButton('19-dars🗣')
             back = types.KeyboardButton('🔙')
-            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19 back)
+            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19, back)
             
             bot.send_message(message.chat.id,'🗣',reply_markup=markup)
         
