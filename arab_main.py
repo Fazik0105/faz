@@ -53,8 +53,11 @@ def bot_message(message):
             item14 = types.KeyboardButton('14📘')
             item15 = types.KeyboardButton('15📘')
             item16 = types.KeyboardButton('16📘')
+            item17 = types.KeyboardButton('17📘')
+            item18 = types.KeyboardButton('18📘')
+            item19 = types.KeyboardButton('19📘')
             back = types.KeyboardButton('🔙.')
-            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16, back)
+            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19, back)
             
             bot.send_message(message.chat.id,'📙',reply_markup=markup)
             
@@ -76,8 +79,11 @@ def bot_message(message):
             item14 = types.KeyboardButton('🎧 14-audio 🎧')
             item15 = types.KeyboardButton('🎧 15-audio 🎧')
             item16 = types.KeyboardButton('🎧 16-audio 🎧')
+            item17 = types.KeyboardButton('🎧 17-audio 🎧')
+            item18 = types.KeyboardButton('🎧 18-audio 🎧')
+            item19 = types.KeyboardButton('🎧 19-audio 🎧')
             back = types.KeyboardButton('🔙.')
-            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16, back)
+            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19 back)
             
             bot.send_message(message.chat.id,'🎧',reply_markup=markup)
             
@@ -113,8 +119,11 @@ def bot_message(message):
             item14 = types.KeyboardButton('14-dars🗣')
             item15 = types.KeyboardButton('15-dars🗣')
             item16 = types.KeyboardButton('16-dars🗣')
+            item17 = types.KeyboardButton('17-dars🗣')
+            item18 = types.KeyboardButton('18-dars🗣')
+            item19 = types.KeyboardButton('19-dars🗣')
             back = types.KeyboardButton('🔙')
-            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16, back)
+            markup.add(item1, item2, item3, item4, item5, item6, item7, item8, item9, item10,item11,item12,item13,item14,item15,item16,item17,item18,item19 back)
             
             bot.send_message(message.chat.id,'🗣',reply_markup=markup)
         
@@ -228,6 +237,22 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/182?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/183?single')
             bot.send_video(message.chat.id,r'https://t.me/araboqgramma/184?single')
+        elif message.text == '17📘':
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/187?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/188?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/189?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/190?single')
+        elif message.text == '18📘':
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/192?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/193?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/194?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/195?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/196?single')
+        elif message.text == '19📘':
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/198?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/199?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/200?single')
+            bot.send_video(message.chat.id,r'https://t.me/araboqgramma/201?single')
 
             
             
@@ -321,6 +346,12 @@ def bot_message(message):
             bot.send_message(message.chat.id,'Audio mavjud emas')
         elif message.text == '🎧 16-audio 🎧':
             bot.send_message(message.chat.id,'Audio mavjud emas')
+        elif message.text == '🎧 17-audio 🎧':
+            bot.send_message(message.chat.id,'Audio mavjud emas')
+        elif message.text == '🎧 18-audio 🎧':
+            bot.send_message(message.chat.id,'Audio mavjud emas')
+        elif message.text == '🎧 19-audio 🎧':
+            bot.send_message(message.chat.id,'Audio mavjud emas')
 
 # ###################################### fonetika ##################################################
 
@@ -406,9 +437,22 @@ def bot_message(message):
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/83?single')
         elif message.text == '16-dars🗣':
             bot.send_video(message.chat.id,r'https://t.me/learnarabian/87?single')
+        elif message.text == '17-dars🗣':
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/89?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/90?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/91?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/92?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/93?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/94?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/95?single')
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/96?single')
+        elif message.text == '18-dars🗣':
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/98?single')        
+        elif message.text == '19-dars🗣':
+            bot.send_video(message.chat.id,r'https://t.me/learnarabian/100?single')
         else:
             bot.send_message(message.chat.id,'Wrong message!')
     
 bot.polling(none_stop=True)
 
-#By phisic, mayor and Fazli
+#By physic, mayor and Fazli
