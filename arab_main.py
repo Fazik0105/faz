@@ -455,4 +455,3 @@ def bot_message(message):
     
 bot.polling(none_stop=True)
 
-#By physic, mayor and Fazli
