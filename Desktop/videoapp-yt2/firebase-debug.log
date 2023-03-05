@@ -1,0 +1,39 @@
+[debug] [2022-07-01T11:18:55.877Z] ----------------------------------------------------------------------
+[debug] [2022-07-01T11:18:55.878Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-07-01T11:18:55.879Z] CLI Version:   11.2.0
+[debug] [2022-07-01T11:18:55.879Z] Platform:      win32
+[debug] [2022-07-01T11:18:55.879Z] Node Version:  v16.15.1
+[debug] [2022-07-01T11:18:55.880Z] Time:          Fri Jul 01 2022 16:18:55 GMT+0500 (Узбекистан, стандартное время)
+[debug] [2022-07-01T11:18:55.880Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-01T11:18:55.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-01T11:18:55.886Z] > authorizing via signed-in user (fayziyev4515@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\User\Desktop\videoapp-yt2
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-07-01T11:20:58.890Z] Using project from CLI flag: videoapp-yt
+[debug] [2022-07-01T11:20:58.892Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/videoapp-yt [none]
+[debug] [2022-07-01T11:20:59.367Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/videoapp-yt 403
+[debug] [2022-07-01T11:20:59.367Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/videoapp-yt {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-07-01T11:20:59.367Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-07-01T11:20:59.610Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\User\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:287:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project videoapp-yt. Please make sure the project exists and your account has permission to access it.
